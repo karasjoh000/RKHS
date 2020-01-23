@@ -6,7 +6,7 @@
 \usepackage{adjustbox}
 \usepackage{bookmark}
 \usepackage{rotating}
-\usepackage{amsmath}
+\usepackage{amsmath, bm, amssymb}
 
 \title{Homework \#1\\ 
     \vspace{0.5cm}
@@ -58,7 +58,7 @@
 \begin{enumerate}
     \item 
         \[K(x,y) = \langle K_x(y), K_y(x) \rangle\ by\ reproducing\ property\]
-        \[K(y,x) = \langle K_y(y), K_x(x) \rangle\ by\ reproducing\ property\] 
+        \[K(y,x) = \langle K_y(x), K_x(y) \rangle\ by\ reproducing\ property\] 
         \[K(x,y) = K(y,x)\]
     \item
         \begin{equation}
@@ -82,14 +82,92 @@
 \begin{enumerate}
     \item 
         
+        \[\langle \bm{f}, \bm{g} \rangle = \bm{f}^T\bm{K}^{-1}\bm{g}\quad
+        \bm{f},\bm{g} \in \mathbb{R}^{2m+1}\]
 
+        \begin{equation}
+            \boldsymbol{\mathcal{N}}(\bm{x};\bm{\mu},\bm{\Sigma} ) 
+            = \frac{1}{(2\pi)^\frac{n}{2}|\bm{\Sigma}|^\frac{1}{2}}
+            exp\bigg\{\frac{-(\bm{x}-\bm{\mu})^T\bm{\Sigma^}{-1}(\bm{x}-\bm{\mu})}{2} \bigg\} \notag
+            \quad \bm{x} \in \mathbb{R}^{n}
+        \end{equation}
+        
+        
+        \begin{equation}
+            \begin{aligned}
+                p(\bm{f}) &= Ce^{-\frac{\|\bm{f}\|^{2}_H}{2}} \\
+                &= C exp \bigg\{ -\frac{\bm{f}^T\bm{K}^{-1}\bm{f}}{2} \bigg\} \notag \\
+                &= \frac{1}{(2\pi)^\frac{2m+1}{2}|\bm{K}|^\frac{1}{2}}
+                   exp \bigg\{ -\frac{\bm{f}^T\bm{K}^{-1}\bm{f}}{2} \bigg\} \notag \\
+                p(\bm{f}) &= \boldsymbol{\mathcal{N}}(\bm{f}; \bm{0}, \bm{K})
+            \end{aligned}
+        \end{equation}
+        \begin{equation}
+            \begin{aligned}
+                \therefore\ \bm{\mu} &= \bm{0} \notag \\
+                \bm{\Sigma} &= \bm{K}
+            \end{aligned} 
+        \end{equation}
+
+        \item $C$ is a normalizing constant so the probability distribution sums to 1
+            \[C = \frac{1}{(2\pi)^\frac{2m+1}{2}|\bm{K}|^\frac{1}{2}}\]
+            which is taken from the $\boldsymbol{\mathcal{N}}(\bm{f}; \bm{0}, \bm{K})$ 
+            normalization constant
+        \item 
+            \begin{enumerate}
+                \item 
+                    kernel matrix: $\bm{K} = [k_{ij}] = Ce^{-\frac{(i-j)^2}{2\tau^2}}$ \\
+                    \vspace{0.5cm}
+                    \adjustbox{valign=t}{\includegraphics[width=14cm]{../figures/gausst0_5.pdf}}
+                    \vspace{0.5cm}
+                \item functions become smoother as $\tau$ increases \\
+                \vspace{0.5cm}
+                \adjustbox{valign=t}{\includegraphics[width=14cm]{../figures/gausst0_15.pdf}}
+                \vspace{0.5cm}
+
+                \vspace{0.5cm}
+                \adjustbox{valign=t}{\includegraphics[width=14cm]{../figures/gausst0_35.pdf}}
+                \vspace{0.5cm}
+
+                \vspace{0.5cm}
+                \adjustbox{valign=t}{\includegraphics[width=14cm]{../figures/gausst0_7.pdf}}
+                \vspace{0.5cm}
+
+                \vspace{0.5cm}
+                \adjustbox{valign=t}{\includegraphics[width=14cm]{../figures/gausst1_5.pdf}}
+                \vspace{0.5cm}
+
+                \vspace{0.5cm}
+                \adjustbox{valign=t}{\includegraphics[width=14cm]{../figures/gausst2_5.pdf}}
+                \vspace{0.5cm}
+
+                \vspace{0.5cm}
+                \adjustbox{valign=t}{\includegraphics[width=14cm]{../figures/gausst4.pdf}}
+                \vspace{0.5cm}
+
+                \vspace{0.5cm}
+                \adjustbox{valign=t}{\includegraphics[width=14cm]{../figures/gausst10.pdf}}
+                \vspace{0.5cm}
+                \item
+                \vspace{0.5cm}
+                \adjustbox{valign=t}{\includegraphics[width=14cm]{../figures/polyd2.pdf}}
+                \vspace{0.5cm}
+
+                \vspace{0.5cm}
+                \adjustbox{valign=t}{\includegraphics[width=14cm]{../figures/tanh.pdf}}
+                \vspace{0.5cm}
+
+                \vspace{0.5cm}
+                \adjustbox{valign=t}{\includegraphics[width=14cm]{../figures/m0_01.pdf}}
+                \vspace{0.5cm}
+
+                \vspace{0.5cm}
+                \adjustbox{valign=t}{\includegraphics[width=14cm]{../figures/m0_0002.pdf}}
+                \vspace{0.5cm}
+            \end{enumerate}
 \end{enumerate}
 
-\vspace{0.5cm}
 
-\adjustbox{valign=t}{\includegraphics[width=15cm]{../figures/gausst0_5.pdf}}
-
-\vspace{0.5cm}
 
 
 \end{document}
