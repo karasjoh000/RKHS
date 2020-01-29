@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1579805426 "/Users/johnkarasev/PersonalProjects/stat672/latex/hw1.tex" "/Users/johnkarasev/PersonalProjects/stat672/latex/hw1.pdf" "hw1" 1579805427
+["pdflatex"] 1579805426 "/Users/johnkarasev/PersonalProjects/stat672/latex/hw1.tex" "/Users/johnkarasev/PersonalProjects/stat672/latex/hw1.pdf" "hw1" 1579805491
   "../figures/gausst0_15.pdf" 1579748162 15661 1436edeb45ade4bc32e3ff59dc28e40d ""
   "../figures/gausst0_35.pdf" 1579748163 16354 8714dbd74789b14d259857e0dd574dee ""
   "../figures/gausst0_5.pdf" 1579748164 16384 399d699148ee1f9115376905df7fbd7d ""
@@ -220,8 +220,8 @@
   "hw1.aux" 1579805427 1432 8794665e6f3c436c8b29ad93862c10fe ""
   "hw1.tex" 1579805426 6427 7c038e0b83e5c969efabd74276f29360 ""
   (generated)
-  "/Users/johnkarasev/PersonalProjects/stat672/latex/hw1.log"
   "hw1.log"
-  "/Users/johnkarasev/PersonalProjects/stat672/latex/hw1.pdf"
   "hw1.pdf"
+  "/Users/johnkarasev/PersonalProjects/stat672/latex/hw1.log"
   "hw1.aux"
+  "/Users/johnkarasev/PersonalProjects/stat672/latex/hw1.pdf"
