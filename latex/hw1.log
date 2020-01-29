@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  23 JAN 2020 10:50
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  29 JAN 2020 08:39
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -831,123 +831,126 @@ LaTeX Warning: No \author given.
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.86         \bm{f},\bm{g} \in \mathbb{R}^{2m+1}\]
-                                                  pdfTeX warning (ext4): destination with the same identifier (name{equation.1.1}) has been already used, duplicate ignored
+l.79         \end{equation}
+                           pdfTeX warning (ext4): destination with the same identifier (name{equation.1.1}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.86         \bm{f},\bm{g} \in \mathbb{R}^{2m+1}\]
-                                                  pdfTeX warning (ext4): destination with the same identifier (name{equation.2.1}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.86         \bm{f},\bm{g} \in \mathbb{R}^{2m+1}\]
-                                                  ] <../figures/gausst0_5.pdf, id=30, 433.62pt x 289.08pt>
+l.79         \end{equation}
+                           ] <../figures/gausst0_5.pdf, id=31, 433.62pt x 289.08pt>
 File: ../figures/gausst0_5.pdf Graphic file (type pdf)
  <use ../figures/gausst0_5.pdf>
-Package pdftex.def Info: ../figures/gausst0_5.pdf used on input line 121.
+Package pdftex.def Info: ../figures/gausst0_5.pdf used on input line 122.
 (pdftex.def)             Requested size: 398.33858pt x 265.57306pt.
- <../figures/gausst0_15.pdf, id=31, 433.62pt x 289.08pt>
+ [2pdfTeX warning (ext4): destination with the same identifier (name{equation.3.2}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.124                 \item f
+                             unctions become smoother as $\tau$ increases \\pdfTeX warning (ext4): destination with the same identifier (name{equation.3.2}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.124                 \item f
+                             unctions become smoother as $\tau$ increases \\ <../figures/gausst0_5.pdf>] <../figures/gausst0_15.pdf, id=72, 433.62pt x 289.08pt>
 File: ../figures/gausst0_15.pdf Graphic file (type pdf)
  <use ../figures/gausst0_15.pdf>
-Package pdftex.def Info: ../figures/gausst0_15.pdf used on input line 125.
+Package pdftex.def Info: ../figures/gausst0_15.pdf used on input line 126.
 (pdftex.def)             Requested size: 398.33858pt x 265.57306pt.
- [2pdfTeX warning (ext4): destination with the same identifier (name{equation.3.1}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.127 
-      pdfTeX warning (ext4): destination with the same identifier (name{equation.3.1}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.127 
-       <../figures/gausst0_5.pdf>] <../figures/gausst0_35.pdf, id=72, 433.62pt x 289.08pt>
+ <../figures/gausst0_35.pdf, id=73, 433.62pt x 289.08pt>
 File: ../figures/gausst0_35.pdf Graphic file (type pdf)
  <use ../figures/gausst0_35.pdf>
-Package pdftex.def Info: ../figures/gausst0_35.pdf used on input line 129.
+Package pdftex.def Info: ../figures/gausst0_35.pdf used on input line 130.
 (pdftex.def)             Requested size: 398.33858pt x 265.57306pt.
- <../figures/gausst0_7.pdf, id=73, 433.62pt x 289.08pt>
+ <../figures/gausst0_7.pdf, id=74, 433.62pt x 289.08pt>
 File: ../figures/gausst0_7.pdf Graphic file (type pdf)
  <use ../figures/gausst0_7.pdf>
-Package pdftex.def Info: ../figures/gausst0_7.pdf used on input line 133.
+Package pdftex.def Info: ../figures/gausst0_7.pdf used on input line 134.
 (pdftex.def)             Requested size: 398.33858pt x 265.57306pt.
  [3 <../figures/gausst0_15.pdf> <../figures/gausst0_35.pdf
 
 pdfTeX warning: pdflatex (file ../figures/gausst0_35.pdf): PDF inclusion: multiple pdfs with page group included in a single page
->] <../figures/gausst1_5.pdf, id=118, 433.62pt x 289.08pt>
+>] <../figures/gausst1_5.pdf, id=119, 433.62pt x 289.08pt>
 File: ../figures/gausst1_5.pdf Graphic file (type pdf)
  <use ../figures/gausst1_5.pdf>
-Package pdftex.def Info: ../figures/gausst1_5.pdf used on input line 137.
+Package pdftex.def Info: ../figures/gausst1_5.pdf used on input line 138.
 (pdftex.def)             Requested size: 398.33858pt x 265.57306pt.
- <../figures/gausst2_5.pdf, id=119, 433.62pt x 289.08pt>
+ <../figures/gausst2_5.pdf, id=120, 433.62pt x 289.08pt>
 File: ../figures/gausst2_5.pdf Graphic file (type pdf)
  <use ../figures/gausst2_5.pdf>
-Package pdftex.def Info: ../figures/gausst2_5.pdf used on input line 141.
+Package pdftex.def Info: ../figures/gausst2_5.pdf used on input line 142.
 (pdftex.def)             Requested size: 398.33858pt x 265.57306pt.
  [4 <../figures/gausst0_7.pdf> <../figures/gausst1_5.pdf
 
 pdfTeX warning: pdflatex (file ../figures/gausst1_5.pdf): PDF inclusion: multiple pdfs with page group included in a single page
->] <../figures/gausst4.pdf, id=163, 433.62pt x 289.08pt>
+>] <../figures/gausst4.pdf, id=164, 433.62pt x 289.08pt>
 File: ../figures/gausst4.pdf Graphic file (type pdf)
  <use ../figures/gausst4.pdf>
-Package pdftex.def Info: ../figures/gausst4.pdf used on input line 145.
+Package pdftex.def Info: ../figures/gausst4.pdf used on input line 146.
 (pdftex.def)             Requested size: 398.33858pt x 265.57306pt.
- <../figures/gausst10.pdf, id=164, 433.62pt x 289.08pt>
+ <../figures/gausst10.pdf, id=165, 433.62pt x 289.08pt>
 File: ../figures/gausst10.pdf Graphic file (type pdf)
  <use ../figures/gausst10.pdf>
-Package pdftex.def Info: ../figures/gausst10.pdf used on input line 149.
+Package pdftex.def Info: ../figures/gausst10.pdf used on input line 150.
 (pdftex.def)             Requested size: 398.33858pt x 265.57306pt.
  [5 <../figures/gausst2_5.pdf> <../figures/gausst4.pdf
 
 pdfTeX warning: pdflatex (file ../figures/gausst4.pdf): PDF inclusion: multiple pdfs with page group included in a single page
->] <../figures/polyd2.pdf, id=209, 433.62pt x 289.08pt>
+>] <../figures/polyd2.pdf, id=210, 433.62pt x 289.08pt>
 File: ../figures/polyd2.pdf Graphic file (type pdf)
  <use ../figures/polyd2.pdf>
-Package pdftex.def Info: ../figures/polyd2.pdf used on input line 153.
+Package pdftex.def Info: ../figures/polyd2.pdf used on input line 154.
 (pdftex.def)             Requested size: 398.33858pt x 265.57306pt.
- <../figures/tanh.pdf, id=210, 433.62pt x 289.08pt>
-File: ../figures/tanh.pdf Graphic file (type pdf)
- <use ../figures/tanh.pdf>
-Package pdftex.def Info: ../figures/tanh.pdf used on input line 157.
+ <../figures/tanh1.pdf, id=211, 433.62pt x 289.08pt>
+File: ../figures/tanh1.pdf Graphic file (type pdf)
+ <use ../figures/tanh1.pdf>
+Package pdftex.def Info: ../figures/tanh1.pdf used on input line 158.
 (pdftex.def)             Requested size: 398.33858pt x 265.57306pt.
  [6 <../figures/gausst10.pdf> <../figures/polyd2.pdf
 
 pdfTeX warning: pdflatex (file ../figures/polyd2.pdf): PDF inclusion: multiple pdfs with page group included in a single page
->] <../figures/m0_01.pdf, id=257, 433.62pt x 289.08pt>
-File: ../figures/m0_01.pdf Graphic file (type pdf)
- <use ../figures/m0_01.pdf>
-Package pdftex.def Info: ../figures/m0_01.pdf used on input line 161.
+>] <../figures/tanh5.pdf, id=259, 433.62pt x 289.08pt>
+File: ../figures/tanh5.pdf Graphic file (type pdf)
+ <use ../figures/tanh5.pdf>
+Package pdftex.def Info: ../figures/tanh5.pdf used on input line 162.
 (pdftex.def)             Requested size: 398.33858pt x 265.57306pt.
- <../figures/m0_0002.pdf, id=258, 433.62pt x 289.08pt>
-File: ../figures/m0_0002.pdf Graphic file (type pdf)
- <use ../figures/m0_0002.pdf>
-Package pdftex.def Info: ../figures/m0_0002.pdf used on input line 165.
+ <../figures/min.pdf, id=260, 433.62pt x 289.08pt>
+File: ../figures/min.pdf Graphic file (type pdf)
+ <use ../figures/min.pdf>
+Package pdftex.def Info: ../figures/min.pdf used on input line 166.
 (pdftex.def)             Requested size: 398.33858pt x 265.57306pt.
- [7 <../figures/tanh.pdf> <../figures/m0_01.pdf
+ [7 <../figures/tanh1.pdf> <../figures/tanh5.pdf
 
-pdfTeX warning: pdflatex (file ../figures/m0_01.pdf): PDF inclusion: multiple pdfs with page group included in a single page
->] [8 <../figures/m0_0002.pdf>]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 173.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 173.
+pdfTeX warning: pdflatex (file ../figures/tanh5.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+>] <../figures/linear.pdf, id=323, 433.62pt x 289.08pt>
+File: ../figures/linear.pdf Graphic file (type pdf)
+ <use ../figures/linear.pdf>
+Package pdftex.def Info: ../figures/linear.pdf used on input line 170.
+(pdftex.def)             Requested size: 398.33858pt x 265.57306pt.
+ [8 <../figures/min.pdf> <../figures/linear.pdf
+
+pdfTeX warning: pdflatex (file ../figures/linear.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+>]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 178.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 178.
  (/Users/johnkarasev/PersonalProjects/stat672/latex/hw1.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 173.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 173.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 173.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 178.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 178.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 178.
  ) 
 Here is how much of TeX's memory you used:
- 34680 strings out of 492995
- 762452 string characters out of 6132704
+ 34686 strings out of 492995
+ 762563 string characters out of 6132704
  834753 words of memory out of 5000000
- 37776 multiletter control sequences out of 15000+600000
+ 37780 multiletter control sequences out of 15000+600000
  16414 words of font info for 61 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  61i,12n,69p,10426b,504s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmbsy10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmib10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmmib5.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on /Users/johnkarasev/PersonalProjects/stat672/latex/hw1.pdf (8 pages, 317817 bytes).
+Output written on /Users/johnkarasev/PersonalProjects/stat672/latex/hw1.pdf (8 pages, 334392 bytes).
 PDF statistics:
- 419 PDF objects out of 1000 (max. 8388607)
- 237 compressed objects within 3 object streams
- 27 named destinations out of 1000 (max. 500000)
- 97 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 440 PDF objects out of 1000 (max. 8388607)
+ 239 compressed objects within 3 object streams
+ 28 named destinations out of 1000 (max. 500000)
+ 102 words of extra memory for PDF output out of 10000 (max. 10000000)
 

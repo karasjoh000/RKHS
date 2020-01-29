@@ -57,25 +57,26 @@
 \section{A reproducing kernel is positive definite}
 \begin{enumerate}
     \item 
-        \[K(x,y) = \langle K_x(y), K_y(x) \rangle\ by\ reproducing\ property\]
-        \[K(y,x) = \langle K_y(x), K_x(y) \rangle\ by\ reproducing\ property\] 
-        \[K(x,y) = K(y,x)\]
+        \[K(x,y) = \langle K_x(.), K_y(.) \rangle\ by\ reproducing\ property\]
+        \[K(y,x) = \langle K_y(.), K_x(.) \rangle\ by\ reproducing\ property\] 
+        \[K(x,y) = \langle K_x(.), K_y(.) \rangle = \langle K_y(.), K_x(.) \rangle\ =  K(y,x)\]
     \item
         \begin{equation}
         \begin{aligned}
-        K(x,y) & = \langle K_x(y), K_y(x) \rangle\\
-        & =  \langle K_y(x), K_y(x) \rangle \ge 0\ by\ symmetry\notag \\
+        for\ any\ n \in \mathbb{N},\ (a_1, ..., a_n) \in \mathbb{R}^n\ ,\ \\
+        (x_1, ..., x_n) \in \mathbb{X}^n \\
+        \sum_{i,j=1}^{n} a_i a_j K(x_i, x_j) &= \sum_{i,j=1}^{n} a_i a_j \langle Kx_i, Kx_j\rangle_{\mathcal{H}} \\
+        & = \bigg \| \sum_{i=1}^{n} a_i Kx_i \bigg \|_{\mathcal{H}} \ge 0
         \end{aligned}
         \end{equation}
     \item 
         \begin{equation}
         \begin{aligned}
-        |f(x)| & \le \|f\|\sqrt{K(x,x)}\\
-        |\langle f, K_x \rangle|& \le  \|f\| \sqrt{\langle K_x, K_x \rangle} \notag \\
         |\langle f, K_x \rangle|& \le  \|f\| \| K_x \|\ true\ by\ Cauchy-Schwartz\ inequality \notag \\
+        |\langle f, K_x \rangle|& \le  \|f\| \sqrt{\langle K_x, K_x \rangle} \ by\ norm\ definition\notag \\
+        |f(x)| & \le \|f\|\sqrt{K(x,x)}\ reproducing\ property
         \end{aligned}
         \end{equation}
-
 \end{enumerate}
 
 \section{RKHS over a finite set}
@@ -116,7 +117,7 @@
         \item 
             \begin{enumerate}
                 \item 
-                    kernel matrix: $\bm{K} = [k_{ij}] = Ce^{-\frac{(i-j)^2}{2\tau^2}}$ \\
+                    kernel matrix: $\bm{K} = [k_{ij}] = e^{-\frac{(i-j)^2}{2\tau^2}}$ \\
                     \vspace{0.5cm}
                     \adjustbox{valign=t}{\includegraphics[width=14cm]{../figures/gausst0_5.pdf}}
                     \vspace{0.5cm}
@@ -154,15 +155,19 @@
                 \vspace{0.5cm}
 
                 \vspace{0.5cm}
-                \adjustbox{valign=t}{\includegraphics[width=14cm]{../figures/tanh.pdf}}
+                \adjustbox{valign=t}{\includegraphics[width=14cm]{../figures/tanh1.pdf}}
                 \vspace{0.5cm}
 
                 \vspace{0.5cm}
-                \adjustbox{valign=t}{\includegraphics[width=14cm]{../figures/m0_01.pdf}}
+                \adjustbox{valign=t}{\includegraphics[width=14cm]{../figures/tanh5.pdf}}
                 \vspace{0.5cm}
 
                 \vspace{0.5cm}
-                \adjustbox{valign=t}{\includegraphics[width=14cm]{../figures/m0_0002.pdf}}
+                \adjustbox{valign=t}{\includegraphics[width=14cm]{../figures/min.pdf}}
+                \vspace{0.5cm}
+
+                \vspace{0.5cm}
+                \adjustbox{valign=t}{\includegraphics[width=14cm]{../figures/linear.pdf}}
                 \vspace{0.5cm}
             \end{enumerate}
 \end{enumerate}
